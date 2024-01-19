@@ -1,0 +1,91 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  .ultra-main{
+    position: absolute;
+    margin-top: 80px;
+    left: 90px;
+  
+  }
+  
+  .main { 
+      background-color: #fff; 
+      border-radius: 15px; 
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+      padding: 10px 20px; 
+      transition: transform 0.2s; 
+      width: 500px; 
+      text-align: center; 
+  } 
+  
+  h1 { 
+      color: #4CAF50; 
+  } 
+  
+  label { 
+      display: block; 
+      width: 100%; 
+      margin-top: 10px; 
+      margin-bottom: 5px; 
+      text-align: left; 
+      color: #555; 
+      font-weight: bold; 
+  } 
+  
+  
+  input { 
+      display: block; 
+      width: 100%; 
+      margin-bottom: 15px; 
+      padding: 10px; 
+      box-sizing: border-box; 
+      border: 1px solid #ddd; 
+      border-radius: 5px; 
+  } 
+  
+  button { 
+      padding: 15px; 
+      border-radius: 10px; 
+      margin-top: 15px; 
+      margin-bottom: 15px; 
+      border: none; 
+      color: white; 
+      cursor: pointer; 
+      background-color: #4CAF50; 
+      width: 100%; 
+      font-size: 16px; 
+  } 
+  
+  .wrap { 
+      display: flex; 
+      justify-content: center; 
+      align-items: center; 
+  }
+  
+  
+  .circle{
+      height: 90px;
+      width: 90px;
+      top: 600px;
+      left: 40px;
+      border-radius: 50%;
+      background-color: #8E2157;
+      position: relative;
+      /* background-color: white; */
+      cursor: pointer;
+  }
+  
+  .circle img {
+      position: absolute;
+      height: 60px;
+      /* width: 20px; */
+      left: 18px;
+      bottom: 13px;
+      /* background-color: white; */
+  }
+  
+  .main-div{
+      margin-bottom: 80px;	
+  }

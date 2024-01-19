@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <div id="circle" class="circle" onclick="toggleChatbot()">
+        <img src="problem.png" alt="issue">
+    </div>
+
+    <div id="mainDiv" class="main-div" style="display: none;">
+        <div class="ultra-main">
+            <div class="main">
+                <h1>Q Bot Report Issue</h1>
+                <h3>Enter your Issue</h3>
+                <form id="issueForm" autocomplete="off" onsubmit="handleSubmit(event)">
+                    <label for="first">Email:</label>
+                    <input
+                        type="email"
+                        id="first"
+                        placeholder="Enter your Email"
+                        name="first"
+                    />
+
+                    <label for="Sessoonid">Session ID:</label>
+                    <input
+                        type="text"
+                        id="Sessoonid"
+                        name="Sessoonid"
+                        placeholder="Enter your Session ID"
+                    />
+
+                    <label for="w3review">Issue</label>
+                    <textarea
+                        id="w3review"
+                        name="w3review"
+                        rows="4"
+                        cols="50"
+                        placeholder="Enter your Issue"
+                    ></textarea>
+
+                    <div class="wrap">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
